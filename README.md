@@ -35,4 +35,4 @@
 |------|-------|--------------|
 | 1    | 원가연 | henzel1013@gmail.com         |
 | 2    | 김선용 | quevirus324@gmail.com        |
-| 3    | 홍성혁 | markhong93@naver.com     |
+| 3    | 홍성혁(Call me Luke) | markhong93@naver.com     |
