@@ -1,16 +1,11 @@
 package org.example.item8;
 
 public class Child extends Parent {
+
     static Child child;
 
     Child() {
         super(); // Parent의 생성자 호출 -> 이때 예외 발생
-    }
-
-    @Override
-    protected void finalize() throws Throwable {
-        child = this;
-        System.out.println("finalize() 메서드를 통해 Child 객체 복구");
     }
 
     public static void main(String[] args) {
