@@ -1,7 +1,7 @@
 # 아이템 17. 변경가능성을 최소화하라
 
 ### 불변 클래스란
-인스턴스 내부 값을 수정할수 없는 클래스이다 이러한 불변클래스에 저장된 정보는 객체가 파괴될 때까지 변경되지 않는다.
+인스턴스 내부 값을 수정할수 없는 클래스이다. 이러한 불변클래스에 저장된 정보는 객체가 파괴될 때까지 변경되지 않는다.
 불변 클래스는 가변 클래스보다 설계,구현하여 사용하기 쉬우며 오류가 생길여지도 적고 휠씬 안전하다.
 
 ### 불변 클래스 5가지 규칙
@@ -10,7 +10,7 @@
 * 클래스를 확장할 수 없도록 한다.
 * 모든 필드를 `final` 로 선언한다.
 * 모든 필드는 `private` 으로 선언한다.
-* 자신의 외에는 내부의 가변 컴포넌트가 접근할수 없도록 한다.
+* 자신 외에는 내부의 가변 컴포넌트를 접근할수 없도록 한다.
 
 ### 불변 클래스의 장점
 * **불변객체는 단순하다**
@@ -47,7 +47,7 @@ public static final ImmutablePoint I = new ImmutablePoint(0, 1);
 * 클래스를 final로 선언하는 것.
 * 모든 생성자를 private(or package-private)로 만들고 public 정적 팩토리를 제공하는 방법
 ```java
-public class ImmutablePointV2 {
+public final class ImmutablePointV2 {
     private final double x;
     private final double y;
 
