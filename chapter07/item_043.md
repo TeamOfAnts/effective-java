@@ -35,7 +35,7 @@ BiFunction<String, String, Boolean> lambdaExpression = (s, prefix) -> str.starts
 BiFunction<String, String, Boolean> methodReference = str::startsWith;
 ```
 
-## 예제 3: 비한정적 인스턴스 메서드 참조
+### 예제 3: 비한정적 인스턴스 메서드 참조
 
 이 예제에서는 `Function<T, R>` 함수형 인터페이스가 사용된다.
 
@@ -44,7 +44,7 @@ Function<String, Integer> lambdaExpression = s -> s.length();
 Function<String, Integer> methodReference = String::length;
 ```
 
-## 예제 4: 생성자 참조
+### 예제 4: 생성자 참조
 
 이 예제에서는 `Supplier<T>` 함수형 인터페이스가 사용된다.
 
