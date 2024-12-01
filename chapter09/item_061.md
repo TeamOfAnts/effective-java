@@ -20,7 +20,7 @@ System.out.println(a.equals(b));   // true
 `==` 연산자는 참조 비교를 하기 때문에 `false`가 출력된다.
 `equals` 메서드는 값 비교를 하기 때문에 `true`가 출력된다.
 
-## 특별한 상황: `Interger` 캐싱
+## 특별한 상황: `Integer` 캐싱
 
 ```java
 Integer a = 100;    // Integer.valueOf(100)와 동일
