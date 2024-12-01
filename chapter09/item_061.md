@@ -43,7 +43,7 @@ public class Unbelievable {
 
     public static void main(String[] args) {
         if (i == 42) {
-            System.out.println("믿을 수 없다.");
+            System.out.println("믿을 수 없군!");
         }
     }
 }
