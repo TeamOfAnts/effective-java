@@ -34,7 +34,7 @@ public String statement() {
 
 ## 추가 정보
 
-### StringBuffer와 StringBuilder의 차이점
+### `StringBuffer`와 `StringBuilder`의 차이점
 
 - `StringBuffer`와 `StringBuilder`는 둘 다 문자열을 수정할 수 있는 클래스이다. 하지만 이 두 클래스에는 중요한 차이가 있다.
 
