@@ -42,3 +42,8 @@
   - `AssertionError`는 일반적으로 개발 단계에서 코드의 논리적 오류를 검증하기 위해 사용되므로 예외이다.
 - `Exception`, `RuntimeException`, `Error`를 상속하지 않는 `Throwable`을 만들어서는 안 된다.
   - 참고: 자바의 예외 계층 구조는 `Throwable`을 최상위 클래스로 하고, 그 아래에 `Exception`과 `Error`가 있다.
+
+## 정리
+
+- 복구 가능한 상황에는 호출자가 처리할 수 있는 **검사 예외(Checked Exception)**를 사용하고, 프로그래밍 오류에는 **런타임 예외(Unchecked Exception)**를 사용
+- 자바 예외 계층 구조를 준수
