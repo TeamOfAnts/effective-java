@@ -26,13 +26,12 @@
 
 ## 참여자
 
-
 ![alt text](https://i.pinimg.com/550x/a9/f1/2a/a9f12ad9bfe0baa4f6e629d1e0fa439c.jpg)  
 
 도망못가게 박제했습니다.
 
-| 번호 | 이름  | 이메일         | 
-|------|-------|--------------|
-| 1    | 원가연 | henzel1013@gmail.com         |
-| 2    | 김선용 | quevirus324@gmail.com        |
-| 3    | 홍성혁 | markhong93@gmail.com         |
+| 번호 | 이름     | 이메일         | 
+|------|--------|--------------|
+| 1    | 원가연    | henzel1013@gmail.com         |
+| 2    | Nhahan | quevirus324@gmail.com        |
+| 3    | 홍성혁    | markhong93@gmail.com         |
