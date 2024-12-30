@@ -4,7 +4,7 @@
 
 - 외계인 메서드(alien method, *외부에서 제어 가능한 메서드*) 주의
   1. 동기화된 영역 안에서 재정의할 수 있는 메서드
-  2. 클라이어트가 넘겨준 함수 객체
+  2. 클라이언트가 넘겨준 함수 객체
 
 ## 예시
 
@@ -62,7 +62,7 @@ Derived: methodB 실행
 - 애초에 `abstract`로 선언하여 하위 클래스에서 구현하도록 한다.
 
 
-### 2. 클라이어트가 넘겨준 함수 객체
+### 2. 클라이언트가 넘겨준 함수 객체
 
 ```java
 public class ObservableSet<E> extends ForwardingSet<E> {
