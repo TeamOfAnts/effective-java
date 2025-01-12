@@ -3,7 +3,7 @@
 ## readObject 메서드란?
 
 `readObject` 메서드는 자바의 직렬화(Serialization) 과정에서 역직렬화(Deserialization)를 커스터마이징 하기 위해 사용하는 특별한 메서드다.
-`readObject` 메서드는 `Serializable` 인터페이스를 구현한 클래스 내에 필요에 따라 직접 작성한다.
+`readObject` 메서드는 `Serializable` 인터페이스를 구현한 클래스 내에 필요에 따라 직접 작성한다.  
 `readObject` 메서드는 실질적으로 또 다른 `public` 생성자라고 할 수 있다. 따라서 생성자가 수행하는 조건들을 `readObject`에도 똑같이 수행해야 한다.
 
 ```java
